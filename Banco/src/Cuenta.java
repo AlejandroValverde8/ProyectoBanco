@@ -69,4 +69,7 @@ public class Cuenta {
 			System.out.println("La cantidad a pagar supera el límite sel pago con tarjeta");
 		return saldo;
 		}
+	void verCantidadDePagos() {
+		System.out.println("La cantidad de pagos con la tarjeta asociada a esta cuante ha sido de " + tarjetas.get(0).getPago());
+	}
 }

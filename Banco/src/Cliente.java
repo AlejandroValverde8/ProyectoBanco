@@ -13,7 +13,6 @@ public class Cliente {
 	
 	public Cliente(String nombre, String apellido, String apellido2, String direccion, String nif, int telefono,
 			int edad, ArrayList<Cuenta> cuentas) {
-		super();
 		this.nombre = nombre;
 		this.apellido = apellido;
 		this.apellido2 = apellido2;

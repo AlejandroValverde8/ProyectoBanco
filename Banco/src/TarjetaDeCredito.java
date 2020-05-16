@@ -3,11 +3,13 @@ public class TarjetaDeCredito {
 	private String idTarjeta;
 	private int limiteRetirada;
 	private int limitePago;
+	private int pago;
 	
-	public TarjetaDeCredito(String idTarjeta, int limiteRetirada, int limitePago) {
+	public TarjetaDeCredito(String idTarjeta, int limiteRetirada, int limitePago, int pago) {
 		this.idTarjeta = idTarjeta;
 		this.limiteRetirada = limiteRetirada;
 		this.limitePago = limitePago;
+		this.pago = pago;
 	}
 
 	public String getIdTarjeta() {
@@ -34,5 +36,17 @@ public class TarjetaDeCredito {
 		this.limitePago = limitePago;
 	}
 	
+	
+	public int getPago() {
+		return pago;
+	}
 
+	public void setPago(int pago) {
+		this.pago = pago;
+	}
+
+	int pagos() {
+		pago+=1;
+		return pago;
+	}
 }
