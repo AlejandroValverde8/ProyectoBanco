@@ -79,5 +79,16 @@ public class Cuenta {
 		
 		System.out.println("El saldo medio en los últimos 12 meses es " + saldoMedio);	
 		}
-
+	
+	int ingresarDinero(int dineroIgresado) {
+		if(saldo>0) 
+			saldo += dineroIgresado;
+		return saldo;
+	}
+	
+	int retirarDinero(int dineroSacado) {
+		if(saldo>0) 
+			saldo -= dineroSacado;
+		return saldo;
+	}
 }
