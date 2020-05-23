@@ -69,15 +69,17 @@ public class Cuenta {
 			System.out.println("La cantidad a pagar supera el límite sel pago con tarjeta");
 		return saldo;
 		}
-	void verCantidadDePagos() {
-		System.out.println("La cantidad de pagos con la tarjeta asociada a esta cuante ha sido de " + tarjetas.get(0).getPago());
+	int verCantidadDePagos() {
+		int pagosTarjeta = tarjetas.get(0).getPago();
+		System.out.println("La cantidad de pagos con la tarjeta asociada a esta cuante ha sido de " + pagosTarjeta);
+		return pagosTarjeta;
 	}
 	
-	void verSaldoMedio() {
+	int verSaldoMedio() {
 		int [] meses = new int[12];
 		int saldoMedio = meses[1]+meses[2]+meses[3]+meses[4]+meses[5]+meses[6]+meses[7]+meses[8]+meses[9]+meses[10]+meses[11]+meses[12]/12;
 		
-		System.out.println("El saldo medio en los últimos 12 meses es " + saldoMedio);	
+		return saldoMedio;
 		}
 	
 	int ingresarDinero(int dineroIgresado) {
