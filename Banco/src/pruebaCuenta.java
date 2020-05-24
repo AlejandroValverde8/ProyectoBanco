@@ -27,6 +27,6 @@ public class pruebaCuenta {
 		TarjetaDeCredito pruebaTar3 = new TarjetaDeCredito("9023h", 200, 100, 0);
 		tarjetas.add(pruebaTar3);
 		assertEquals(1000, pruebaCuenta2.pagarConTarjeta(3000));//Se queda con el mismo saldo porque el límite de pago es menor que el pago a realizar.
-		assertEquals(1000, pruebaCuenta2.retirarDinero(2000));//Se queda con el mismo saldo porque el límite de retirada es menor que la cantidad a retirar..
+		assertEquals(1000, pruebaCuenta2.retirarDinero(2000));//Se queda con el mismo saldo porque el límite de retirada es menor que la cantidad a retirar.
 	}
 }
