@@ -99,7 +99,9 @@ public class Cuenta {
 	
 	/**
 	 * Este método se encarga de realizar los pagos con la tarjeta asociada a la cuenta.
-	 * No sin antes comprobar si el límite de pago con tarjeta es mayor que el pago a realizar.
+	 * No sin antes comprobar si el límite de pago con tarjeta es mayor que el pago a realizar, 
+	 * para ello accede a la propiedad "limitePago" de un objeto "tarjetaDeCredito" que haya en
+	 * el array list "tarjetas".
 	 * @param cantidadAPagar
 	 * @return
 	 */
@@ -117,7 +119,8 @@ public class Cuenta {
 		return saldo;
 		}
 	/**
-	 * Con este método podremos ver la cantidad de pagos que se ha realizado con una determinada tarjeta
+	 * Con este método podremos ver la cantidad de pagos que se ha realizado con una determinada tarjeta.
+	 * Como vemos se accede a la propiedad "Pago" del objeto "TarjetaDeCredito" que se asocie a esta cuenta.
 	 * @return
 	 */
 	int verCantidadDePagos() {
