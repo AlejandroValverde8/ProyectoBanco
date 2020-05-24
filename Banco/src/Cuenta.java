@@ -29,7 +29,7 @@ public class Cuenta {
 		return idCuenta;
 	}
 	/**
-	 * Método set con el que establecemos que la variable "nombre" que usaremos guardará 
+	 * Método set con el que establecemos que la variable "idCuenta" que usaremos guardará 
 	 * lo mismo que la propiedad con el mismo nombre del objeto
 	 * @param idCuenta
 	 */
