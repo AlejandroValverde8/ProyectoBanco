@@ -1,5 +1,11 @@
 import java.util.ArrayList;
 
+/**
+ * Esta clase nos va a servir para almacenar clientes con su información personal
+ * además de la o las cuentas que tengan asociadas.  
+ * @author alejandro
+ * version 1.0.0
+ */
 public class Cliente {
 	
 	private String nombre;
@@ -22,11 +28,18 @@ public class Cliente {
 		this.edad = edad;
 		this.cuentas = cuentas;
 	}
-
+	/**
+	 * Método get para obtener la propiedad "nombre" en cualquier momento
+	 * @return
+	 */
 	public String getNombre() {
 		return nombre;
 	}
-
+	/**
+	 * Método set con el que establecemos que la variable "nombre" que usaremos guardará 
+	 * lo mismo que la propiedad con el mismo nombre del objeto
+	 * @param nombre
+	 */
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
