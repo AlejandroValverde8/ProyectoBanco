@@ -68,7 +68,7 @@ public class Cliente {
 	/**
 	 * Método set con el que establecemos que la variable "Apellido2" guardará 
 	 * lo mismo que la propiedad con el mismo nombre del objeto
-	 * @param apellido
+	 * @param apellido2
 	 */
 	public void setApellido2(String apellido2) {
 		this.apellido2 = apellido2;
@@ -83,7 +83,7 @@ public class Cliente {
 	/**
 	 * Método set con el que establecemos que la variable "Direccion" guardará 
 	 * lo mismo que la propiedad con el mismo nombre del objeto
-	 * @param apellido
+	 * @param direccion
 	 */
 	public void setDireccion(String direccion) {
 		this.direccion = direccion;
@@ -98,7 +98,7 @@ public class Cliente {
 	/**
 	 * Método set con el que establecemos que la variable "NIF" guardará 
 	 * lo mismo que la propiedad con el mismo nombre del objeto
-	 * @param apellido
+	 * @param nif
 	 */
 	public void setNif(String nif) {
 		this.nif = nif;
@@ -113,7 +113,7 @@ public class Cliente {
 	/**
 	 * Método set con el que establecemos que la variable "Telefono" guardará 
 	 * lo mismo que la propiedad con el mismo nombre del objeto
-	 * @param apellido
+	 * @param telefono
 	 */
 	public void setTelefono(int telefono) {
 		this.telefono = telefono;
@@ -128,7 +128,7 @@ public class Cliente {
 	/**
 	 * Método set con el que establecemos que la variable "Edad" guardará 
 	 * lo mismo que la propiedad con el mismo nombre del objeto
-	 * @param apellido
+	 * @param edad
 	 */
 	public void setEdad(int edad) {
 		this.edad = edad;
